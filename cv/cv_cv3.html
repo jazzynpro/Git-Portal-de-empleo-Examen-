@@ -1,107 +1,104 @@
-<h1>Hoja de Vida 3</h1>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ángel Sarango · Hoja de Vida</title>
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ángel Sarango - Hoja de Vida</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
     <header>
         <h1>Ángel Sarango</h1>
-        <p>Ingeniero en Sistemas · Desarrollador Full-Stack</p>
-        <p>
-            <i class="fas fa-phone-alt"></i> +593 98 765 4321 &nbsp;|&nbsp;
-            <i class="fas fa-envelope"></i> angel.sarango@email.com &nbsp;|&nbsp;
-            <i class="fas fa-map-marker-alt"></i> Quito, Ecuador
-        </p>
+        <p>Desarrollador Web Full-Stack</p>
     </header>
 
-    <main>
+    <!-- Contenido principal usando solo las clases del CSS -->
+    <div class="destacados-container" style="flex-direction: column; background: lightgreen; margin: 20px;">
+        <!-- Sección de datos personales como card -->
+        <div class="card">
+            <h2>Datos Personales</h2>
+            <p><strong>Email:</strong> angel.sarango@email.com</p>
+            <p><strong>Teléfono:</strong> +593 99 999 9999</p>
+            <p><strong>Ubicación:</strong> Quito, Ecuador</p>
+        </div>
 
-        <!-- PERFIL -->
-        <section>
-            <h2><i class="fas fa-user-circle"></i> Perfil Profesional</h2>
-            <p>Ingeniero en Sistemas con 5+ años de experiencia en desarrollo de software, apasionado por la arquitectura cloud y el liderazgo técnico. He liderado equipos ágiles y entregado soluciones escalables para el sector financiero y educativo.</p>
-        </section>
+        <!-- Sección de perfil como card -->
+        <div class="card">
+            <h2>Perfil Profesional</h2>
+            <p>Ingeniero en Sistemas con más de 5 años de experiencia en desarrollo web full-stack. Especialista en crear soluciones escalables y centradas en el usuario.</p>
+        </div>
 
-        <!-- TARJETAS DESTACADAS -->
-        <section id="destacados-container">
-
-            <!-- Experiencia -->
-            <div class="card">
-                <h3><i class="fas fa-briefcase"></i> Experiencia</h3>
-                <ul>
-                    <li><strong>Tech Lead</strong> · Fintech EC (2022-act)</li>
-                    <li><strong>Full-Stack Dev</strong> · EducaTech (2019-2022)</li>
-                    <li><strong>Junior Dev</strong> · SoftSolutions (2017-2019)</li>
-                </ul>
-                <p><strong>5+ años</strong> de experiencia</p>
-            </div>
-
-            <!-- Educación -->
-            <div class="card">
-                <h3><i class="fas fa-graduation-cap"></i> Educación</h3>
-                <ul>
-                    <li><strong>Ing. Sistemas</strong> · U. Politécnica (2012-2017)</li>
-                    <li><strong>MSc. Data Science</strong> · U. Internacional (2020-2022)</li>
-                    <li><strong>Cert. AWS Architect</strong> · 2023</li>
-                </ul>
-                <p><strong>Especialización</strong> en datos y cloud</p>
-            </div>
-
-            <!-- Habilidades -->
-            <div class="card">
-                <h3><i class="fas fa-code"></i> Habilidades</h3>
-                <ul>
-                    <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>React</li>
-                    <li>Node.js</li>
-                    <li>AWS</li>
-                    <li>Docker</li>
-                    <li>Git</li>
-                    <li>MongoDB</li>
-                </ul>
-                <p><strong>Stack moderno</strong> full-stack</p>
-            </div>
-
-        </section>
-
-        <!-- SECCIÓN ADICIONAL -->
-        <section>
+        <!-- Sección de experiencia como card -->
+        <div class="card">
+            <h2>Experiencia Laboral</h2>
+            
             <div>
-                <h3><i class="fas fa-trophy"></i> Logros</h3>
+                <h3>Desarrollador Full-Stack Senior</h3>
+                <p><strong>TechSolutions S.A. | 2020 - Presente</strong></p>
                 <ul>
-                    <li>🏆 Liderazgo en migración a microservicios (200+ usuarios)</li>
-                    <li>📈 Incremento de rendimiento del 40% en APIs críticas</li>
-                    <li>📚 Ponente en conferencia LATAM Dev 2024</li>
+                    <li>Lideré el desarrollo de una plataforma de e-commerce que aumentó las ventas en un 30%.</li>
+                    <li>Implementé microservicios con Node.js y Docker.</li>
                 </ul>
             </div>
+
             <div>
-                <h3><i class="fas fa-language"></i> Idiomas</h3>
+                <h3>Desarrollador Frontend</h3>
+                <p><strong>Innovatech | 2017 - 2020</strong></p>
                 <ul>
-                    <li>🇪🇸 Español (nativo)</li>
-                    <li>🇬🇧 Inglés (C1 – avanzado)</li>
-                    <li>🇫🇷 Francés (B1 – intermedio)</li>
+                    <li>Construí interfaces modernas con React y TypeScript.</li>
+                    <li>Integré APIs REST y WebSockets.</li>
                 </ul>
             </div>
-        </section>
+        </div>
 
-    </main>
+        <!-- Sección de educación como card -->
+        <div class="card">
+            <h2>Educación</h2>
+            
+            <div>
+                <h3>Ingeniería en Sistemas Informáticos</h3>
+                <p><strong>Universidad Politécnica Salesiana | 2012 - 2017</strong></p>
+                <p>Graduado con honores. Tesis enfocada en PWA.</p>
+            </div>
+        </div>
 
-    <footer>
-        <p>© 2026 · Ángel Sarango · Hoja de Vida</p>
-        <p>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-x-twitter"></i></a>
-        </p>
+        <!-- Habilidades técnicas en cards -->
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div class="card" style="flex: 1; min-width: 200px;">
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, JavaScript, React, Vue.js</p>
+            </div>
+            <div class="card" style="flex: 1; min-width: 200px;">
+                <h3>Backend</h3>
+                <p>Node.js, Python, PostgreSQL, MongoDB</p>
+            </div>
+            <div class="card" style="flex: 1; min-width: 200px;">
+                <h3>DevOps</h3>
+                <p>Docker, Git, AWS, Metodologías Ágiles</p>
+            </div>
+        </div>
+
+        <!-- Idiomas y certificaciones -->
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div class="card" style="flex: 1; min-width: 200px;">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li><strong>Español:</strong> Nativo</li>
+                    <li><strong>Inglés:</strong> Avanzado (C1)</li>
+                </ul>
+            </div>
+            <div class="card" style="flex: 1; min-width: 200px;">
+                <h3>Certificaciones</h3>
+                <ul>
+                    <li>AWS Certified Developer</li>
+                    <li>Scrum Master (PSM I)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer style="background: #333; color: white; text-align: center; padding: 15px; margin-top: 30px;">
+        <p>© 2026 Ángel Sarango</p>
     </footer>
-
 </body>
 </html>
