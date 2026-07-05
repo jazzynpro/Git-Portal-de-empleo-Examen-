@@ -36,3 +36,7 @@ Hora 22:57
 Archivo: index. html
 Se aceptan dos cambios del conflicto html, para tener 3 ofertas laborales.
 
+## Conflicto 7
+Hora 23:16
+Archivo: index html
+Se acepta ambos cambios en el html desde 
