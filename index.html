@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ángel Sarango - Hoja de Vida</title>
+    <title>Portal de Empleo Universitario</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Ángel Sarango</h1>
-        <p>Desarrollador Web Full-Stack</p>
+        <h1>Portal de Empleo: Oportunidades 2026</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cv/cv_cv1.html">Candidato 1</a></li>
+                <li><a href="cv/cv_cv2.html">Candidato 2</a></li>
+                <li><a href="cv/cv_cv3.html">Candidato 3</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <!-- Contenedor principal con gap entre cards -->
-    <div style="max-width: 1100px; margin: 20px auto; padding: 0 20px; display: flex; flex-direction: column; gap: 20px;">
+    <main>
+        <h2>Bienvenidos al portal</h2>
+        <p>La plataforma líder para conectar talento joven con empresas.</p>
         
-        <div class="destacados-container">
+        <div id="contenedor-destacados">
            
                 <!-- OFERTA LABORAL DESTACADA -->
             <div class="oferta-destacada">
@@ -40,93 +47,24 @@
                 <div class="fecha-publicacion">📅 Publicado: 4 de julio, 2026</div>
             </div>
             <!-- FIN OFERTA LABORAL -->
-        <!-- Datos Personales -->
+            <!-- AQUÍ: Cada estudiante debe insertar su tarjeta de oferta laboral -->
+            <div class="card">
+                <h3>Oferta Laboral Destacada</h3>
+                <p><strong>Empresa:</strong> Tech Innovators S.A.</p>
+                <p><strong>Posición:</strong> Desarrollador Frontend Junior</p>
+                <p><strong>Requisitos:</strong> Conocimientos en HTML, CSS, JavaScript y frameworks modernos.</p>
+                <p><strong>Beneficios:</strong> Flexibilidad horaria, trabajo remoto y oportunidades de crecimiento.</p>
+            </div>
         <div class="card">
-            <h2>Datos Personales</h2>
-            <p><strong>Email:</strong> angel.sarango@email.com</p>
-            <p><strong>Teléfono:</strong> +593 99 999 9999</p>
-            <p><strong>Ubicación:</strong> Quito, Ecuador</p>
+        <h3>Oferta A: Desarrollador Web Junior</h3>
+        <p><strong>Empresa:</strong> Tech Solutions</p>
+        <p>Se busca estudiante de programación con conocimientos en HTML, CSS y Git para pasantías.</p>
+        <p><strong>Ubicación:</strong> Remoto</p>
         </div>
-
-        <!-- Perfil Profesional -->
-        <div class="card">
-            <h2>Perfil Profesional</h2>
-            <p>Ingeniero en Sistemas con más de 5 años de experiencia en desarrollo web full-stack. Especialista en crear soluciones escalables y centradas en el usuario.</p>
         </div>
-
-        <!-- Experiencia Laboral -->
-        <div class="card">
-            <h2>Experiencia Laboral</h2>
-            
-            <div style="margin-bottom: 20px;">
-                <h3>Desarrollador Full-Stack Senior</h3>
-                <p><strong>TechSolutions S.A. | 2020 - Presente</strong></p>
-                <ul>
-                    <li>Lideré el desarrollo de una plataforma de e-commerce que aumentó las ventas en un 30%.</li>
-                    <li>Implementé microservicios con Node.js y Docker.</li>
-                    <li>Colaboré con equipos de diseño UX/UI.</li>
-                </ul>
-            </div>
-
-            <div>
-                <h3>Desarrollador Frontend</h3>
-                <p><strong>Innovatech | 2017 - 2020</strong></p>
-                <ul>
-                    <li>Construí interfaces modernas con React y TypeScript.</li>
-                    <li>Integré APIs REST y WebSockets.</li>
-                    <li>Participé en migración de sistemas legacy.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Educación -->
-        <div class="card">
-            <h2>Educación</h2>
-            
-            <div>
-                <h3>Ingeniería en Sistemas Informáticos</h3>
-                <p><strong>Universidad Politécnica Salesiana | 2012 - 2017</strong></p>
-                <p>Graduado con honores. Tesis enfocada en aplicaciones web progresivas (PWA).</p>
-            </div>
-        </div>
-
-        <!-- Habilidades Técnicas -->
-        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-            <div class="card" style="flex: 1; min-width: 200px;">
-                <h3>Frontend</h3>
-                <p>HTML5, CSS3, JavaScript, React, Vue.js</p>
-            </div>
-            <div class="card" style="flex: 1; min-width: 200px;">
-                <h3>Backend</h3>
-                <p>Node.js, Python, PostgreSQL, MongoDB</p>
-            </div>
-            <div class="card" style="flex: 1; min-width: 200px;">
-                <h3>DevOps</h3>
-                <p>Docker, Git, AWS, Metodologías Ágiles</p>
-            </div>
-        </div>
-
-        <!-- Idiomas y Certificaciones -->
-        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-            <div class="card" style="flex: 1; min-width: 200px;">
-                <h3>Idiomas</h3>
-                <ul>
-                    <li><strong>Español:</strong> Nativo</li>
-                    <li><strong>Inglés:</strong> Avanzado (C1)</li>
-                </ul>
-            </div>
-            <div class="card" style="flex: 1; min-width: 200px;">
-                <h3>Certificaciones</h3>
-                <ul>
-                    <li>AWS Certified Developer</li>
-                    <li>Scrum Master (PSM I)</li>  
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <footer style="background: #333; color: white; text-align: center; padding: 15px; margin-top: 30px;">
-        <p>© 2026 Ángel Sarango</p>
+    </main>
+    <footer>
+        <p>© 2026 Portal de Empleo - Contacto: info@universidad.edu Cynthia Cacuango / Johann Cacuango / Angel Sarango </p>
     </footer>
 </body>
 </html>
