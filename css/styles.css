@@ -15,7 +15,7 @@ header {
 
 /* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
 .destacados-container{ 
-    background: lightgreen;
+    background-color: lightgreen;
     display: flex; 
     gap: 20px; 
     padding: 20px;
