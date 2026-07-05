@@ -26,3 +26,13 @@ Hora 22:31
 Archivo: styles.css
 Se mantiene el cambio de -destacados-container por instrucciones del pdf y se borra uno de los dos repetidos de backgroung-color: lighblue por conflicto.
 
+## Conflicto 5
+Hora 22:53
+Archivo: index. html
+Se aceptan ambos cambios del conflicto html.
+
+## Conflicto 6
+Hora 22:57
+Archivo: index. html
+Se aceptan dos cambios del conflicto html, para tener 3 ofertas laborales.
+
