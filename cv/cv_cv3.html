@@ -12,9 +12,10 @@
         <p>Desarrollador Web Full-Stack</p>
     </header>
 
-    <!-- Contenido principal usando solo las clases del CSS -->
-    <div class="destacados-container" style="flex-direction: column; background: lightgreen; margin: 20px;">
-        <!-- Sección de datos personales como card -->
+    <!-- Contenedor principal con gap entre cards -->
+    <div style="max-width: 1100px; margin: 20px auto; padding: 0 20px; display: flex; flex-direction: column; gap: 20px;">
+        
+        <!-- Datos Personales -->
         <div class="card">
             <h2>Datos Personales</h2>
             <p><strong>Email:</strong> angel.sarango@email.com</p>
@@ -22,22 +23,23 @@
             <p><strong>Ubicación:</strong> Quito, Ecuador</p>
         </div>
 
-        <!-- Sección de perfil como card -->
+        <!-- Perfil Profesional -->
         <div class="card">
             <h2>Perfil Profesional</h2>
             <p>Ingeniero en Sistemas con más de 5 años de experiencia en desarrollo web full-stack. Especialista en crear soluciones escalables y centradas en el usuario.</p>
         </div>
 
-        <!-- Sección de experiencia como card -->
+        <!-- Experiencia Laboral -->
         <div class="card">
             <h2>Experiencia Laboral</h2>
             
-            <div>
+            <div style="margin-bottom: 20px;">
                 <h3>Desarrollador Full-Stack Senior</h3>
                 <p><strong>TechSolutions S.A. | 2020 - Presente</strong></p>
                 <ul>
                     <li>Lideré el desarrollo de una plataforma de e-commerce que aumentó las ventas en un 30%.</li>
                     <li>Implementé microservicios con Node.js y Docker.</li>
+                    <li>Colaboré con equipos de diseño UX/UI.</li>
                 </ul>
             </div>
 
@@ -47,22 +49,23 @@
                 <ul>
                     <li>Construí interfaces modernas con React y TypeScript.</li>
                     <li>Integré APIs REST y WebSockets.</li>
+                    <li>Participé en migración de sistemas legacy.</li>
                 </ul>
             </div>
         </div>
 
-        <!-- Sección de educación como card -->
+        <!-- Educación -->
         <div class="card">
             <h2>Educación</h2>
             
             <div>
                 <h3>Ingeniería en Sistemas Informáticos</h3>
                 <p><strong>Universidad Politécnica Salesiana | 2012 - 2017</strong></p>
-                <p>Graduado con honores. Tesis enfocada en PWA.</p>
+                <p>Graduado con honores. Tesis enfocada en aplicaciones web progresivas (PWA).</p>
             </div>
         </div>
 
-        <!-- Habilidades técnicas en cards -->
+        <!-- Habilidades Técnicas -->
         <div style="display: flex; gap: 20px; flex-wrap: wrap;">
             <div class="card" style="flex: 1; min-width: 200px;">
                 <h3>Frontend</h3>
@@ -78,7 +81,7 @@
             </div>
         </div>
 
-        <!-- Idiomas y certificaciones -->
+        <!-- Idiomas y Certificaciones -->
         <div style="display: flex; gap: 20px; flex-wrap: wrap;">
             <div class="card" style="flex: 1; min-width: 200px;">
                 <h3>Idiomas</h3>
@@ -91,7 +94,7 @@
                 <h3>Certificaciones</h3>
                 <ul>
                     <li>AWS Certified Developer</li>
-                    <li>Scrum Master (PSM I)</li>
+                    <li>Scrum Master (PSM I)</li>  
                 </ul>
             </div>
         </div>
