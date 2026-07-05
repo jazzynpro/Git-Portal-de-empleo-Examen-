@@ -13,9 +13,14 @@ header {
     padding: 1rem; 
 }
 
+<<<<<<< HEAD
 /* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global */
 .destacados-container{ 
     background: lightgreen;
+=======
+/* AQUÍ: Cada estudiante debe agregar sus estilos para su tarjeta y cambios de color global  10*/
+.destacados-container {     
+>>>>>>> 06a9a6583a14765f8a2caa85fdaaec370d5ab5d9
     display: flex; 
     gap: 20px; 
     padding: 20px;
